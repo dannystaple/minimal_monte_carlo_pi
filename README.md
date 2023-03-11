@@ -14,6 +14,13 @@ These arrays can be used with NumPy to address x and y, so we can plot those ins
 
 Finally, we take the sum of the inside array, and divide by the total population size. This gives us an estimate of the ratio of points inside the unit circle to the total number of points. Multiplying this by 4 gives us an estimate of Pi.
 
+## Usage
+
+This code is designed to be run in a Jupyter notebook.
+The simplest way is to install the requirements in a python interpreter (using a virtual env perhaps?), and load the notebook into VSCode.
+
+A larger population size will give a more accurate estimate of Pi, but will take longer to run.
+
 ## Inspiration
 
 I've been working on Monte Carlo simulations with robot localisation and using Ulab, a version of Numpy for CircuitPython for the book [Robotics at Home with Raspberry Pi Pico](https://amzn.eu/d/71zbNBQ).
